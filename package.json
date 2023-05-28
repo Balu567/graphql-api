@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.5.0",
-    "graphql": "^15.7.2"
+    "apollo-datasource-mysql": "^1.4.0",
+    "apollo-server": "^3.12.0",
+    "graphql": "^15.7.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.1"
   }
 }

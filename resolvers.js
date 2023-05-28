@@ -1,3 +1,5 @@
+//const fetch = require("node-fetch");
+
 const books = [
   {
     title: "The Awakening",
@@ -11,9 +13,29 @@ const books = [
   },
 ];
 
+const products = [
+  {
+    id: 1,
+    title: "Hp",
+    price: "20$",
+    category: "Fantasy",
+    description: "Excelent pictire",
+    image: "Image",
+  },
+  {
+    id: 2,
+    title: "Hp",
+    price: "20$",
+    category: "Fantasy",
+    description: "Excelent pictire",
+    image: "Image",
+  },
+];
+
 const resolvers = {
   Query: {
     books: () => books,
+    products: () => products,
   },
 };
 
